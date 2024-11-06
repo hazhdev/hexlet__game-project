@@ -1,6 +1,8 @@
 .header {
     padding: 0 15px;
-    box-shadow: 0 0 5px 0 #000;
+    box-shadow: 0 0 10px 0 #0db7e1;
+    position: relative;
+    z-index: 2;
 }
 
 .header__nav {
@@ -26,10 +28,15 @@
     font-size: 20px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 768px) {
     .header {
         padding: 0 10px;
     }
+
+    .container {
+        width: 90%;
+      }
+    
     .logo__text {
         font-size: 30px;
     }
@@ -43,6 +50,11 @@
     .header {
         padding: 0 5px;
     }
+
+    .container {
+        width: 80%;
+    }
+
     .logo__text {
         font-size: 20px;
     }

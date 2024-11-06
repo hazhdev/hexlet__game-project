@@ -1,0 +1,51 @@
+
+
+.main__samurai {
+    background-image: url("/img/samurai.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20%;
+}
+
+.main__title-left, .main__title-right {
+    color: #fff;
+    font-size: 50px;
+}
+
+.main__samurai-buy {
+    text-decoration: none;
+    color: #36de10;
+}
+
+.main__description {
+    color: #fff;
+    font-size: 16px;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .main__title-left, .main__title-right {
+        color: #fff;
+        font-size: 40px;
+    }
+    .main__samurai {
+       gap: 30px;
+    }
+}
+
+@media (max-width: 485px) {
+    .main__title-left, .main__title-right {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .main__samurai {
+        gap: 20px;
+    }
+}
+
